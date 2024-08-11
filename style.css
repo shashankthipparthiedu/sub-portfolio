@@ -1,0 +1,185 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+}
+
+
+.container {
+  background-color: blueviolet;
+  height: 10vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('cas.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+
+
+}
+
+.text {
+  margin-left: 34%;
+  color: rgb(247, 255, 5);
+}
+
+
+.flx {
+  background-color: rgb(151, 176, 165);
+  width: 100%;
+  flex-grow: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.flex-container {
+  display: flex;
+  background-image: url('abc.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  height: 650px;
+  width: 100%; 
+}
+
+.flex-container > div {
+  background-color: #594343;
+  margin: 13px;
+  padding: 20px;
+  font-size: 30px;
+  width: 700px;
+  height: 560px;
+  opacity: 0.05;
+  border-radius: 13px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.flex-container div:hover {
+  transform: scale(1.01);
+
+
+}
+.certificate-img {
+  width: 100%;
+  height: auto;
+  border-radius: 13px;
+  opacity: 0.8; /* Default opacity */
+  transition: opacity 0.3s ease;
+}
+
+
+
+.box.two {
+  position: relative; 
+  background-image: url('cert.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden; 
+  opacity: 0.8; 
+  transition: opacity 0.3s ease;   
+}
+
+
+/* Hover effect */
+.box.two:hover {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(240, 239, 239); 
+}
+
+/* Optional: Use pseudo-element for smoother effect */
+.box.two::before {
+  position: absolute;
+  background-image: url('cert.jpg'); /* Background image */
+  background-size: cover;
+  opacity: 0.8; /* Default opacity */
+  z-index: -1; /* Positioned behind the content */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+}
+
+/* Hover effect for pseudo-element */
+.box.two:hover::before {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(240, 239, 239); 
+}
+
+.box.one {
+  position: relative; 
+  background-image: url('ma.jpg'); /* Background image */
+  background-size: cover;
+
+
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden; 
+  opacity: 0.8; 
+  transition: opacity 0.3s ease;   
+}
+
+
+/* Hover effect */
+.box.one:hover {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(240, 239, 239); 
+}
+
+/* Optional: Use pseudo-element for smoother effect */
+.box.one::before {
+  position: absolute;
+  background-color: rgb(249, 138, 2);
+  opacity: 0.8; /* Default opacity */
+  z-index: -1; /* Positioned behind the content */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+}
+
+/* Hover effect for pseudo-element */
+.box.one:hover::before {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(240, 239, 239); 
+}
+
+.box.three {
+  position: relative;
+  background-image: url('pspk.jpg');
+  /*Backgroundimage*/background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+
+/* Hover effect */
+.box.three:hover {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(240, 239, 239); 
+}
+
+/* Optional: Use pseudo-element for smoother effect */
+.box.three::before {
+  position: absolute;
+  background-color: rgb(249, 138, 2);
+  opacity: 0.8; /* Default opacity */
+  z-index: -1; /* Positioned behind the content */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+}
+
+/* Hover effect for pseudo-element */
+.box.three:hover::before {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(240, 239, 239); 
+}
+
+.tes {
+  color: white;
+}
+
+h3,h5,h4,p {
+  font-family: Tahoma, Verdana, sans-serif;
+  color: white;
+}
+
