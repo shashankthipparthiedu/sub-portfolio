@@ -1,0 +1,493 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+}
+
+
+.container {
+  background-color: blueviolet;
+  height: 10vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('cas.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+
+
+}
+
+.text {
+  margin-left: 34%;
+  color: rgb(247, 255, 5);
+}
+
+
+.flx {
+  background-color: rgb(151, 176, 165);
+  width: 100%;
+  flex-grow: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.flex-container {
+  display: flex;
+  background-image: url('abc.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  height: 650px;
+  width: 100%; 
+}
+
+.flex-container > div {
+  background-color: #594343;
+  margin: 13px;
+  padding: 20px;
+  font-size: 30px;
+  width: 700px;
+  height: 560px;
+  opacity: 0.05;
+  border-radius: 13px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.flex-container div:hover {
+  transform: scale(1.01);
+
+
+}
+.certificate-img {
+  width: 40%;
+  height: auto;
+  margin-bottom: 10%;
+  border-radius: 13px;
+  opacity: 0.8; /* Default opacity */
+  transition: opacity 0.3s ease;
+
+}
+
+
+
+.box.two {
+  position: relative; 
+  background-image: url('cert.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden; 
+  opacity: 0.8; 
+  transition: opacity 0.3s ease;   
+}
+
+
+/* Hover effect */
+.box.two:hover {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(246, 247, 249); 
+}
+
+/* Optional: Use pseudo-element for smoother effect */
+.box.two::before {
+  position: absolute;
+  background-image: url('cert.jpg'); /* Background image */
+  background-size: cover;
+  opacity: 0.8; /* Default opacity */
+  z-index: -1; /* Positioned behind the content */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+}
+
+/* Hover effect for pseudo-element */
+.box.two:hover::before {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(254, 254, 255); 
+}
+
+.box.one {
+  position: relative; 
+  background-image: url('ma.jpg'); /* Background image */
+  background-size: cover;
+
+
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden; 
+  opacity: 0.8; 
+  transition: opacity 0.3s ease;   
+}
+
+
+/* Hover effect */
+.box.one:hover {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(70, 89, 158); 
+}
+
+/* Optional: Use pseudo-element for smoother effect */
+.box.one::before {
+  position: absolute;
+  background-color: rgb(249, 138, 2);
+  opacity: 0.8; /* Default opacity */
+  z-index: -1; /* Positioned behind the content */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+}
+
+/* Hover effect for pseudo-element */
+.box.one:hover::before {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(86, 107, 175); 
+}
+
+.box.three {
+  position: relative;
+  background-image: url('pspk.jpg');
+  /*Backgroundimage*/background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+
+/* Hover effect */
+.box.three:hover {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(7, 3, 3); 
+}
+
+/* Optional: Use pseudo-element for smoother effect */
+.box.three::before {
+  position: absolute;
+  background-color: rgb(249, 138, 2);
+  opacity: 0.8; /* Default opacity */
+  z-index: -1; /* Positioned behind the content */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+}
+
+/* Hover effect for pseudo-element */
+.box.three:hover::before {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0px 4px 15px rgb(15, 2, 2); 
+}
+
+.tes {
+  color: white;
+}
+
+h3,h5,h4,p {
+  font-family: Tahoma, Verdana, sans-serif;
+  color: white;
+}
+
+
+
+
+.container2 {
+  background-color: blueviolet;
+  height: 10vh; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url('cas.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+
+}
+
+.text2 {
+  margin-left: 2%;
+  font-weight: bold; /* Optional, for emphasis */
+  background-image: linear-gradient(to right, #f7f7f7, #f50c0cf0); /* Gradient colors */
+  -webkit-background-clip: text; /* For WebKit-based browsers (Chrome, Safari) */
+  background-clip: text; /* For other browsers */
+  color: transparent;
+
+}
+
+.flx2 {
+  background-color: rgb(151, 176, 165);
+  width: 100%;
+  flex-grow: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  background-image: url('abc.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  height: 1500px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container2 > div {
+  margin: 13px;
+  padding: 20px;
+  font-size: 30px;
+  width: 1300px;
+  height: 460px;
+  opacity: 1;
+  border-radius: 13px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  transform-origin: center right; /* You can adjust this depending on how you want the flip to look */
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide the back face when not visible */
+  border-radius: 13px;
+}
+
+
+
+
+.flip-card-front2, .flip-card-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide the back face when not visible */
+  border-radius: 13px;
+}
+
+
+
+
+
+
+.flip-card-front {
+  /*background-color: #594343;*/ /* Adjust to your desired color */
+}
+
+.flip-card-back {
+  transform: rotatex(180deg);
+}
+
+.flip-card-back2 {
+  transform: rotatex(180deg);
+}
+
+
+.flipped .flip-card-inner {
+  transform: rotatex(180deg);
+
+}
+
+.pdf-viewer {
+  width: 100%; /* Full width of the flexbox container */
+  height: 100%; /* Full height of the flexbox container */
+  border: none; /* Remove border around iframe */
+  object-fit: contain; /* Maintain aspect ratio */
+}
+
+.one2 {
+         
+  background-image: url('oled.jpg'); 
+  background-size: cover; 
+
+
+}
+
+.write {
+  color: white;
+}
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 480px) {
+  /* Container adjustments */
+  .container, .container2 {
+    background-color: blueviolet;
+    height: 10vh; 
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center;
+    align-items: center; /* Center content horizontally */
+    background-image: url('cas.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+  }
+
+  /* Text adjustments */
+  .text, .text2 {
+    margin: 0;
+    text-align: center; /* Center text */
+    font-size: 14px; /* Smaller text for mobile */
+  }
+
+  /* Flexbox adjustments */
+  .flex-container, .flex-container2 {
+    display: flex;
+    flex-direction: column; /* Stack flex items vertically */
+    justify-content: center;
+    align-items: center; /* Center flex items horizontally */
+    background-image: url('abc.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: auto; /* Adjust height for content */
+  }
+
+  /* Flexbox item adjustments */
+  .flex-container > div, .flex-container2 > div {
+    background-color: #594343;
+    margin: 10px;
+    padding: 15px;
+    font-size: 18px; /* Smaller font size for mobile */
+    width: 90%; /* Adjust width for mobile */
+    height: auto; /* Adjust height based on content */
+    opacity: 0.8;
+    border-radius: 13px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* Specific box styling */
+  .box.one2, .box.two2, .box.three2 {
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    width: 100%; /* Adjust width for mobile */
+    height: 300px; /* Increase height for better visibility */
+  }
+
+  /* Hover effects */
+  .box.one2:hover, .box.two2:hover, .box.three2:hover {
+    opacity: 1;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  /* PDF viewer adjustments */
+  .pdf-viewer {
+    width: 10%;
+    height: auto; /* Adjust height for content */
+    border: none;
+    object-fit: contain;
+  }
+
+  /* Flip card adjustments */
+  .flip-card-inner {
+    width: 100%;
+    height: auto; /* Adjust height based on content */
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+  }
+
+  .flip-card-front, .flip-card-back, .flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 13px;
+  }
+
+  .flipped .flip-card-inner {
+    transform: rotateX(180deg);
+  }
+
+  .write {
+    color: white;
+    text-align: center;
+    font-size: 14px; /* Smaller text for mobile */
+  }
+
+  h3, h5, h4, p {
+    font-family: Tahoma, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 10px; /* Smaller text for mobile */
+  }
+
+
+
+  .flex-container2 > div {
+    background-color: #594343;
+    margin: 10px;
+    padding: 15px;
+    font-size: 18px; /* Smaller font size for mobile */
+    width: 90%; /* Adjust width for mobile */
+    height: auto; /* Adjust height based on content */
+    opacity: 0.8;
+    border-radius: 13px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* Specific adjustments for box two */
+  .box.two {
+    height: 300px; /* Increase height for better visibility */
+    width: 90%; /* Adjust width for mobile */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+
+  .box.one, .box.three {
+    height: 200px; /* Adjust height for mobile */
+    width: 90%; /* Adjust width for mobile */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+
+  /* Flexbox container adjustments for the section under 'Salesforce Developer Internship' */
+  .flex-container.salesforce-internship {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('abc.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: auto; /* Adjust height for content */
+  }
+
+  .flex-container.salesforce-internship > div {
+    background-color: #594343;
+    margin: 10px;
+    padding: 15px;
+    font-size: 18px;
+    width: 90%;
+    height: auto;
+    opacity: 0.8;
+    border-radius: 13px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .box.three2 {
+    display: none; /* Hide the third flexbox on mobile screens */
+  }
+
+
+  
+
+}
